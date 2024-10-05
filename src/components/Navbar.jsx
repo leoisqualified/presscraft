@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+/* import image */
 import Logo from '../assets/img/logo.jpg'
 
 function Navbar () {
@@ -11,10 +13,10 @@ function Navbar () {
                     <h1 className='logo-name'>PressCraft</h1>
                 </div>
                 <div className="nav-links">
-                    <Link to='#' className='link'>Home</Link>
-                    <Link to='#' className='link'>Services</Link>
-                    <Link to='#' className='link'>About Us</Link>
-                    <Link to='#' className='link'>Contact Us</Link>
+                    <Link to='/' className='link'>Home</Link>
+                    <Link to='/services' className='link'>Services</Link>
+                    <Link to='/aboutus' className='link'>About Us</Link>
+                    <Link to='/contactus' className='link'>Contact Us</Link>
                 </div>
             </div>
         </React.Fragment>

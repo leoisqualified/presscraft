@@ -3,7 +3,11 @@ import React from 'react';
 function Services () {
     return (
         <>
-            <h1>Services</h1>
+            <section className='services'>
+                <div className="grid">
+                    
+                </div>
+            </section>
         </>
     )
 }
